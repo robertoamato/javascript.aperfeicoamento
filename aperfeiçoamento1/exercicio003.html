@@ -1,0 +1,58 @@
+<div class="">
+    <p>Exercicio 3 </p>
+
+
+<label>Nome</label>
+<input type="text" id="nome" placeholder="digite o seu nome"><br><br>    
+
+<form class="" method="post">
+<label>Aluno 01</label>
+<input type="number" id="nota01" value="" max="10">
+<br>
+<br>
+<label>Aluno 02</label>
+<input type="number" id="nota02" value="" max="10">
+<br>
+<br>
+<label>Aluno 03</label>
+<input type="number" id="nota03" value="" max="10">
+<br>
+<br>
+<label>Aluno 04</label>
+<input type="number" id="nota04" value="" max="10">
+<br>
+<br>
+<input type="button" onclick="javascript:calculo();" name="name" value="Enviar">
+<input type="text" id="txtResultado" value="">
+</form>
+ </div>
+
+ <script type="text/javascript">
+     function calculo() {
+var nota01 = Number(document.getElementById('nota01').value);
+var nota02 = Number(document.getElementById('nota02').value);
+var nota03 = Number(document.getElementById('nota03').value);
+var nota04 = Number(document.getElementById('nota04').value);
+
+var resultado = Number((nota01 + nota02 + nota03 + nota04) / 4);
+
+
+document.getElementById('txtResultado').setAttribute("value", resultado);
+}
+
+ </script>
+</body>
+        
+
+
+
+    
+
+
+
+
+    
+
+    
+    
+
