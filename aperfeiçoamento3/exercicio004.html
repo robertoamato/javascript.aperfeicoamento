@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 004</title>
+
+
+
+</head>
+
+<body>
+
+
+
+<p id="demo"></p>
+
+
+<input type="text" id="digitar" placeholder="digite algo">
+<button id="receber" onclick="receber()">enviar</button>
+<div ></div>
+
+
+
+<script>
+
+function receber (){    
+    var receber1 = document.getElementById("digitar").value;
+    document.getElementById("demo").innerHTML=receber1.length; 
+    
+}
+
+
+
+
+</script>
+
+</body>
+</html>
