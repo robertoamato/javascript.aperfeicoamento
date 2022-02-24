@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>loop por forEach</h2>
+<p>Exercicio 003 </p>
+
+<p id="demo"></p>
+
+<script>
+const person = ["repetição", "repetição", "repetição", "repetição", "repetição"]; 
+
+let txt = "";
+for (let x in person) {
+  txt += person[x] + " ";
+}
+
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>
