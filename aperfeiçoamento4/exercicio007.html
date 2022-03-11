@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>exercicio 007</h1>
+<h2>use o filter() Method</h2>
+
+<p></p>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+
+
+const users = [
+    { nome: 'Caio', idade: 25, empresa: 'Google' },
+    { nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
+    { nome: 'Felipe', idade: 30, empresa: 'Apple' },
+    ];
+let teste =  users.filter(checkAdult);
+   
+document.getElementById("demo").innerHTML = Object.values(teste[0])
+
+function checkAdult(user) {
+  return user.idade >= 30 && user.empresa ==='Apple'
+}
+
+
+
+</script>
+
+</body>
+</html>
