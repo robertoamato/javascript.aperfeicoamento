@@ -1,0 +1,73 @@
+<html>
+    <head>
+    <title>Pesquisar CEP</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+    <script>
+    
+  
+
+    function pesquisarCep() {
+        let cep = document.getElementById('cep').value;
+        let url = `https://cep.awesomeapi.com.br/json/${cep}`;
+        
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET', url, false);
+        xhr.send();
+       
+                let resultado = JSON.parse(xhr.responseText);
+                document.getElementById('logradouro').innerHTML = resultado.address;
+                document.getElementById('bairro').innerHTML = resultado.district;
+                document.getElementById('cidade').innerHTML = resultado.city;
+                
+              
+                document.getElementById('cepLabel').innerHTML = resultado.cep;
+
+
+
+            }
+        
+        
+
+
+
+                    
+        
+
+
+        
+
+    
+        
+  
+
+    </script>
+    </head>
+
+    <body>
+    <!-- Inicio do formulario -->
+        <label>Cep:
+        <input name="cep" type="text" id="cep"  size="10" maxlength="9"
+                /></label><br />
+
+        <button onclick="pesquisarCep()">Pesquisar CEP</button>
+        <br>
+        <label>Rua:
+        <label name="logradouro" type="text" id="logradouro" size="60"></label><br/>
+        <label>Bairro:  
+        <label name="bairro" type="text" id="bairro" size="60"></label><br/>
+        <label>Cidade:
+        <label name="cidade" type="text" id="cidade" size="60"></label><br/>
+        
+      
+      
+        <label>Cep:
+        <label name="cep" type="text" id="cepLabel" size="60"></label><br/>
+        
+       
+        
+
+    </body>
+
+    </html>
