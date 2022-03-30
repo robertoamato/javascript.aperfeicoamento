@@ -1,0 +1,65 @@
+<html>
+    <head>
+    <title>Pesquisar CEP</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  
+   
+    
+    <script>
+    
+  
+
+    function   cotacao() {
+        let cotacao = document.getElementById('cotacao').value;
+        
+        let url = `https://economia.awesomeapi.com.br/json/${cotacao}-BRL`;
+        
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET', url, false);
+        xhr.send();
+       
+                let resultado = JSON.parse(xhr.responseText);
+                document.getElementById('high').innerHTML = resultado[0].high;
+
+               
+                
+
+
+
+            }
+        
+  
+    </script>
+    </head>
+
+    <body>
+    
+        
+               </label><br />
+        
+                <select name="select" id="cotacao">
+                    <option value="USD">DOLAR</option>
+                    <option value="BTC" >BITCOIN</option>
+                    <option value="EUR">EURO</option>
+                  </select>        
+        <button onclick="cotacao()">
+        enviar</button>
+        <br>
+
+        <label >O valor da moeda em REAL:</label>    
+        
+        
+            
+
+        <label>
+        <label name="High" type="text" id="high" size="60"></label><br/>
+
+       
+        
+
+    </body>
+
+  
+
+    </html>
