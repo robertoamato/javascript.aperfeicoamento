@@ -1,0 +1,205 @@
+    body{
+        margin-top: ;
+       margin-left: 300px;
+       margin-right: 300px;; 
+        background: #F5F5F5 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px #707070;
+        opacity: 1;
+
+    }
+    
+    img{
+        top: 3150px;
+        margin-top: -150px;
+        top: 148px;
+        margin-left: -300px;
+
+
+background: #F5F5F5 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 20px;
+opacity: 1;
+
+
+    }
+    
+    .pizza{
+        position: relative;
+        height: 500px;
+        background-position: left ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 500px;
+        top: 154px;
+        left: 453px;
+        width: 510px;
+        height: 765px;
+        border: 1;
+        opacity: 1;
+
+    
+     
+
+    }
+    h1{
+        color: #EF4C00;
+        font-size: 32px;
+        font-family: 'san-serif';
+        font-weight: bold;
+        text-align: center;
+        margin-top: -780px;
+        margin-bottom: -10px;
+        margin-left: -600px;
+        margin-right: -10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+       
+
+    }      
+    p {
+        color: #EF4C00;
+        font-size: 17px;
+        margin-left: -600px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -10px;
+
+
+    }
+
+h2{
+
+  
+
+
+}
+
+#efetuarLogin{
+
+    font-size: 21px;
+    font: normal bold 'time';
+    margin-left: 0px;
+
+    
+
+
+}
+
+
+.login{
+    text-align: center ;
+  margin-top: -660px;
+  margin-left: 300px;
+  display: block;
+  width: 100%;
+    height: 100%;       
+    
+    
+    
+        
+}
+
+#efetuarLogin{
+
+margin-top:-500px;
+
+
+}
+
+#inputEmail{
+
+    border-radius: 1000px; 
+    width: 264px;
+    height: 34px;
+    
+
+    
+}
+
+#inputPassword{
+
+    border-radius: 1000px;
+    width: 264px;
+    height: 34px;
+
+
+    
+}
+
+
+#esqueceu{
+    margin-top: 10px;
+    
+    font-size: 09px;
+    margin-left: 100px;
+
+
+
+}
+
+.acessar{
+    
+    top: 556px;
+    left: 1092px;
+width: 264px;
+height: 34px;
+border-radius: 36px;
+opacity: 1;
+    margin-left: -100px;
+    border-radius: 100px;
+    background-color: #EF4C00;
+    color: #F5F5F5;
+
+
+
+    }
+
+    #Criarumaconta{
+
+        font: normal normal normal 11px/35px Josefin Sans;
+        color: #000000;
+        opacity: 1;
+        font-size: 11px;
+        margin-left: 100px;
+
+
+    }
+
+
+
+    
+    footer{
+      
+        position: relative;
+        font: normal normal normal 14px/34px Josefin Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        font-size: 14px;
+        margin-top: 170px;
+        margin-left: 1150px;
+        
+
+       
+
+
+    }
+
+
+    
+    
+        
+
+    
+
+
+
+       
+
+
+    
