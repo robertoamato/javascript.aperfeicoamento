@@ -1,0 +1,261 @@
+*{
+
+  margin: 0; ;
+  padding: 0;
+  box-sizing: border-box;
+  margin-right: auto;
+
+  
+}
+
+
+body {
+  font-family: arial, sans-serif;
+  background: #ccc;
+ margin-top:5px ;
+  background-color: white;
+}
+
+.hero {
+  text-align: right;
+  font: normal normal normal 25px/30px Proxima Nova;
+  letter-spacing: 3px;
+  color: #2e4765;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-right: auto;
+  margin-left: auto;
+  border: #979494 solid 1px;
+  line-height: 60px;
+  opacity: 1;
+  
+}
+
+.fotoprincipal {
+  background-image: url(assets/urn_aaid_sc_US_9b1b194f-0373-4017-8294-5f96dfe17fcb\ \(1\).png);
+  background-position: center;
+  background-size: 50%;
+  border-top: 111px solid transparent;
+   
+  text-align: right;
+  background-repeat: no-repeat;
+  line-height: 5;
+  border-radius: 20px;
+}
+.texto h1{
+  
+margin-right: 650px;
+font: normal normal normal 35px/42px Proxima Nova;
+letter-spacing: 0px;
+color: #B30733;
+opacity: 1;
+}
+
+.texto h2{
+
+font: normal normal normal 25px/30px Proxima Nova;
+letter-spacing: 0px;
+color: #B30733;
+opacity: 1;
+margin-right: 510px;
+line-height: 2.5;
+
+}
+
+.texto p{
+  margin-top: 20;
+  margin-right: 610px;
+  font: normal normal normal 20px/48px Josefin Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+
+}
+
+.texto p2{
+  font: normal normal normal 20px/48px Josefin Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-right: 500px;
+
+}
+
+#botao1{
+  
+ 
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-right: 10px;
+  color: #2E4765;
+  font: normal normal normal 17px/21px Proxima Nova;
+  
+}
+#botao2{
+  
+  color: #2E4765;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-right: 500px;
+  font: normal normal normal 17px/21px Proxima Nova;
+}
+
+
+h3 {
+margin-top: 20px;
+text-align: right;
+margin-right: 1220px;
+font: normal normal bold 23px/28px Proxima Nova;
+
+color: #B30733;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.hero nav li {
+  display: inline-flex;
+  list-style: none;
+  text-align: right;
+  border-radius: 150px;
+}
+ #cd{
+  color:red ;
+  font-size: 20px;
+  margin-left: -1150px;
+  font: normal normal 900 28px/34px Nouvelle Vague;
+  letter-spacing: 0px;
+  color: #EF4C00;
+  text-transform: uppercase;
+  opacity: 1;
+ } 
+
+.hero nav a {
+  padding: 15px;
+  color: #65302e;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  
+}
+
+.hero nav img{
+  display: inline-flex;
+  border-radius: 150px;
+  margin-top: 20px;
+  margin-left: 10px;
+  
+
+}
+
+.hero nav button{
+  color:white;
+  background-color: orangered;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  letter-spacing:2px;
+  font: normal normal normal 17px/21px Proxima Nova;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.content-section {
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 280px;
+  
+  
+  
+ 
+}
+
+.card {
+  width: 20%;
+  float: left;
+  
+  
+  
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+  margin-right: 6%;
+ padding: auto;
+ display: inline-block;
+
+ 
+  
+}
+
+
+.card img {
+  width: 300px;
+  display: flex;
+  border-radius: 20px;
+  background-color: #B30733;
+  
+  
+}
+.card  p {
+  font-family: proxima-nova, sans-serif;
+  color: rgb(177, 11, 11);
+  margin: 0;
+  padding: 15px;
+  background-color: #f5f2f3;
+  border-radius: 10px;
+  width: 300px; 
+  
+  
+}
+
+.meio{
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1120px;
+  margin-bottom: 20px;
+  width: 80%;
+  height: auto;
+  background-color: #f5f2f3;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: proxima-nova, sans-serif;
+  color: rgb(177, 11, 11);
+  margin: 0;
+  padding: 15px;
+  background-color: #f5f2f3;
+  border-radius: 10px;
+  width: 300px; 
+ 
+
+}
+
